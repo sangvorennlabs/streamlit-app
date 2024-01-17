@@ -3,7 +3,7 @@ import json
 
 data = json.load(open('./text-summarization_comparision_list_17_01_2024.json','r'))
 st.set_page_config(layout="wide")
-a = st.number_input('Sample Index', max_value=10, min_value=1) -1
+a = st.number_input('Sample Index', max_value=20, min_value=1) -1
 
 col1, col2, col3 = st.columns([4,2,2])
 
